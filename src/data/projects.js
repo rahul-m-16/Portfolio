@@ -9,7 +9,7 @@ export const projects = [
   challenges: 'Handling real-time data updates and designing intuitive dashboards for clear financial visualization.',
   outcome: 'Successfully deployed a scalable finance tracking application enabling users to monitor spending and make informed financial decisions.',
   liveLink: 'https://tracklyt.vercel.app/',
-  githubLink: 'https://github.com/rahul-m-16/tracklyt',
+  githubLink: 'https://github.com/rahul-m-16/Personal-Finanace-Dashboard',
   category: 'fullstack',
   featured: true
 },
@@ -51,7 +51,7 @@ export const projects = [
   challenges: 'Cleaning large datasets and identifying key metrics to represent supply chain performance effectively.',
   outcome: 'Enabled visualization of demand patterns, inventory flow, and operational insights for better decision-making.',
   liveLink: '',
-  githubLink: 'https://github.com/rahul-m-16/',
+  githubLink: 'https://github.com/rahul-m-16/SupplyChain-Analysis',
   category: 'data-analytics',
   featured: false
 }
