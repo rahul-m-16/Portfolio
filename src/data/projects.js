@@ -14,20 +14,6 @@ export const projects = [
   featured: true
 },
   {
-  id: 3,
-  title: 'Inventory Analysis Dashboard',
-  description: 'An interactive Power BI dashboard to analyze sales, inventory trends, and business performance.',
-  problem: 'Businesses struggle to track inventory and sales performance effectively due to scattered and unstructured data.',
-  approach: 'Built a structured dashboard using Power BI and SQL to transform raw data into meaningful insights and KPIs.',
-  techStack: ['Power BI', 'SQL'],
-  challenges: 'Cleaning and transforming raw data and designing clear visualizations for better decision-making.',
-  outcome: 'Enabled efficient monitoring of stock levels, sales trends, and performance metrics through visual insights.',
-  liveLink: '',
-  githubLink: 'https://github.com/rahul-m-16/',
-  category: 'data-analytics',
-  featured: true
-},
-  {
   id: 2,
   title: 'Online Library Management System',
   description: 'A responsive web application to manage book records and streamline issue and return processes.',
@@ -40,6 +26,20 @@ export const projects = [
   githubLink: 'https://github.com/rahul-m-16/',
   category: 'frontend',
   featured: false
+},
+{
+  id: 3,
+  title: 'Inventory Analysis Dashboard',
+  description: 'An interactive Power BI dashboard to analyze sales, inventory trends, and business performance.',
+  problem: 'Businesses struggle to track inventory and sales performance effectively due to scattered and unstructured data.',
+  approach: 'Built a structured dashboard using Power BI and SQL to transform raw data into meaningful insights and KPIs.',
+  techStack: ['Power BI', 'SQL'],
+  challenges: 'Cleaning and transforming raw data and designing clear visualizations for better decision-making.',
+  outcome: 'Enabled efficient monitoring of stock levels, sales trends, and performance metrics through visual insights.',
+  liveLink: '',
+  githubLink: 'https://github.com/rahul-m-16/',
+  category: 'data-analytics',
+  featured: true
 },
   {
   id: 4,
