@@ -14,19 +14,19 @@ export const projects = [
   featured: true
 },
   {
-    id: 2,
-    title: 'Task Management Dashboard',
-    description: 'A collaborative task management tool with real-time updates and intuitive drag-and-drop interface.',
-    problem: 'Teams needed a simple way to track project progress without the complexity of enterprise tools.',
-    approach: 'Designed a clean, intuitive interface with real-time synchronization using WebSockets.',
-    techStack: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-    challenges: 'Handling real-time data synchronization across multiple users and implementing smooth drag-and-drop.',
-    outcome: 'Achieved 95% user satisfaction in testing with 50+ active users managing 200+ tasks daily.',
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com/yourusername/task-manager',
-    category: 'frontend',
-    featured: true
-  },
+  id: 2,
+  title: 'Inventory Analysis Dashboard',
+  description: 'An interactive Power BI dashboard to analyze sales, inventory trends, and business performance.',
+  problem: 'Businesses struggle to track inventory and sales performance effectively due to scattered and unstructured data.',
+  approach: 'Built a structured dashboard using Power BI and SQL to transform raw data into meaningful insights and KPIs.',
+  techStack: ['Power BI', 'SQL'],
+  challenges: 'Cleaning and transforming raw data and designing clear visualizations for better decision-making.',
+  outcome: 'Enabled efficient monitoring of stock levels, sales trends, and performance metrics through visual insights.',
+  liveLink: '',
+  githubLink: 'https://github.com/yourusername/',
+  category: 'data-analytics',
+  featured: true
+},
   {
     id: 3,
     title: 'Weather Forecast App',
