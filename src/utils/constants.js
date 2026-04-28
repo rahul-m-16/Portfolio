@@ -1,10 +1,10 @@
 export const PERSONAL_INFO = {
-  name: 'Your Name',
+  name: 'Rahul',
   role: 'Aspiring Full Stack Developer',
   tagline: 'Passionate about building impactful web solutions and learning new technologies',
-  email: 'your.email@example.com',
-  github: 'https://github.com/yourusername',
-  linkedin: 'https://linkedin.com/in/yourusername',
+  email: 'rahulmadagoud@gmail.com',
+  github: 'https://github.com/rahul-m-16',
+  linkedin: 'https://linkedin.com/in/',
   resume: '/resume.pdf'
 }
 
