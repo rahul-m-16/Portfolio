@@ -7,7 +7,7 @@ export const skills = {
     'Tailwind CSS',
     'Responsive Design',
     'Vite',
-    'Framer Motion'
+  
   ],
   backend: [
     'Node.js',

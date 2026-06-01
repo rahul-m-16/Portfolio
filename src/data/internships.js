@@ -3,7 +3,7 @@ export const internships = [
     id: 1,
     company: 'Excerpt Technologies Pvt Ltd, Bangalore',
     role: 'Data Analytics Intern',
-    duration: '2025 - Present',
+    duration: 'Feb-2026 - May-2026',
     type: 'On-site',
     description: 'Worked on advanced data analytics projects using Power BI, SQL, and Python to generate business insights.',
     achievements: [
@@ -18,7 +18,7 @@ export const internships = [
     id: 2,
     company: 'Simdaa Technologies Pvt Ltd, Pune',
     role: 'Data Analytics Intern',
-    duration: '2024',
+    duration: 'Apr-2024 - May-2024',
     type: 'Remote',
     description: 'Worked on inventory data analysis and dashboard development using Power BI and SQL.',
     achievements: [
