@@ -4,17 +4,26 @@ export const PERSONAL_INFO = {
   tagline: 'Passionate about building impactful web solutions and learning new technologies',
   email: 'rahulmadagoud@gmail.com',
   github: 'https://github.com/rahul-m-16',
-  linkedin: ': https://github.com/rahul-m-16/',
+  linkedin: 'https://www.linkedin.com/in/rahul-madagoud-a5a3682b7',
   resume: '/resume.pdf'
 }
 
-export const EDUCATION = {
-  degree: 'Bachelor of Computer Application',
-  institution: 'Rani Channamma University, Belagavi',
-  year: '2021 - 2024',
-  gpa: '8.5/10',
-  coursework: ['Data Structures & Algorithms', 'Web Development', 'Database Management', 'Software Engineering']
-}
+export const EDUCATION = [
+  {
+    degree: 'Master of Computer Application',
+    institution: 'Visvesvaraya Technological University, Belagavi',
+    year: '2024 - 2026',
+    gpa: '8.5/10',
+    coursework: ['Data Structures & Algorithms', 'Web Development', 'Database Management', 'Software Engineering']
+  },
+  {
+    degree: 'Bachelor of Computer Application',
+    institution: 'Rani Channamma University, Belagavi',
+    year: '2021 - 2024',
+    gpa: '8.2/10',
+    coursework: ['Data Structures & Algorithms', 'Web Development', 'Database Management', 'OOP Concepts']
+  }
+]
 
 export const ABOUT_TEXT = `I'm a passionate and driven Computer Science student with hands-on experience in full-stack web development. Through internships and personal projects, I've developed strong problem-solving skills and a deep understanding of modern web technologies.
 

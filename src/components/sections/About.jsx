@@ -23,66 +23,46 @@ const About = () => {
             ))}
           </div>
 
-          {/* Education Card */}
-          <div className="card mb-12">
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-600 to-primary-400 rounded-lg flex items-center justify-center">
-                  <svg
-                    className="w-8 h-8 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 14l9-5-9-5-9 5 9 5z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                  </svg>
-                </div>
-              </div>
-
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-                  {EDUCATION.degree}
-                </h3>
-                <p className="text-lg text-primary-600 dark:text-primary-400 font-semibold mb-2">
-                  {EDUCATION.institution}
-                </p>
-                <div className="flex flex-wrap gap-4 mb-4">
-                  <p className="text-gray-600 dark:text-gray-400">
-                    📅 {EDUCATION.year}
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    📊 GPA: {EDUCATION.gpa}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
-                    Relevant Coursework:
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {EDUCATION.coursework.map((course, index) => (
-                      <span
-                        key={index}
-                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full"
-                      >
-                        {course}
-                      </span>
-                    ))}
+          {/* Education Cards */}
+          <div className="space-y-6 mb-12">
+            {EDUCATION.map((edu, index) => (
+              <div key={index} className="card">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-600 to-primary-400 rounded-lg flex items-center justify-center">
+                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+                      {edu.degree}
+                    </h3>
+                    <p className="text-lg text-primary-600 dark:text-primary-400 font-semibold mb-2">
+                      {edu.institution}
+                    </p>
+                    <div className="flex flex-wrap gap-4 mb-4">
+                      <p className="text-gray-600 dark:text-gray-400">📅 {edu.year}</p>
+                      <p className="text-gray-600 dark:text-gray-400">📊 GPA: {edu.gpa}</p>
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+                        Relevant Coursework:
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {edu.coursework.map((course, i) => (
+                          <span key={i} className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full">
+                            {course}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
 
           {/* Stats */}
