@@ -58,12 +58,5 @@ export const achievements = [
     date: 'Oct 2024',
     icon: '🌟'
   },
-  {
-    id: 3,
-    title: 'Technical Blog Writer',
-    event: 'Dev.to Community',
-    description: 'Published 10+ technical articles with 5000+ total views',
-    date: '2024 - Present',
-    icon: '✍️'
-  }
+  
 ]
