@@ -67,7 +67,7 @@ const Hero = () => {
               View My Work
             </a>
             <a
-              href={PERSONAL_INFO.resume}
+              href="/Resume.pdf"
               download
               className="btn-secondary inline-flex items-center justify-center"
             >
