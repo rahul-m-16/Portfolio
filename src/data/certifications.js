@@ -1,15 +1,15 @@
 export const certifications = [
   {
     id: 1,
-    title: 'Full Stack Web Development',
-    issuer: 'Coursera',
-    date: 'Dec 2024',
-    credentialId: 'ABC123XYZ',
-    credentialUrl: 'https://coursera.org/verify/ABC123XYZ',
-    skills: ['React', 'Node.js', 'MongoDB', 'Express'],
+    title: 'Gen AI Powered Data Analytics Job Simulation',
+    issuer: 'Forage',
+    date: 'May 2026',
+    credentialId: 'mRSX68euqztG9HEok',
+    credentialUrl: '',
+    skills: ['ANALYTICAL REPORTING', 'DATA QUALITY MANAGEMENT', 'DATA INTERPRETATION', 'PREDICTIVE ANALYTICS'],
     icon: '🎓'
-  },
-  {
+  }
+  /*{
     id: 2,
     title: 'JavaScript Algorithms and Data Structures',
     issuer: 'freeCodeCamp',
@@ -38,10 +38,10 @@ export const certifications = [
     credentialUrl: 'https://udemy.com/certificate/UC-GIT-2024',
     skills: ['Git', 'GitHub', 'Version Control'],
     icon: '🔧'
-  }
+  }*/
 ]
 
-export const achievements = [
+/*export const achievements = [
   {
     id: 1,
     title: 'Hackathon Winner',
@@ -59,4 +59,4 @@ export const achievements = [
     icon: '🌟'
   },
   
-]
+]*/
