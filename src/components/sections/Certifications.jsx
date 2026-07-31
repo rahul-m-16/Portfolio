@@ -51,7 +51,7 @@ const Certifications = () => {
 
                   {/* Credential Link */}
                   <a
-                    href={cert.credentialUrl}
+                    href={cert.certificateHref}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm text-primary-600 dark:text-primary-400 hover:underline"

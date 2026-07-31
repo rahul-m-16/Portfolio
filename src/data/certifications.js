@@ -5,8 +5,8 @@ export const certifications = [
     issuer: 'Forage',
     date: 'May 2026',
     credentialId: 'mRSX68euqztG9HEok',
-    credentialUrl: '',
-    skills: ['ANALYTICAL REPORTING', 'DATA QUALITY MANAGEMENT', 'DATA INTERPRETATION', 'PREDICTIVE ANALYTICS'],
+    certificateHref: "/certificates/Data_Analytics.pdf",
+    skills: ['ANALYTICAL REPORTING', 'DATA QUALITY MANAGEMENT', 'DATA INTERPRETATION', 'Express'],
     icon: '🎓'
   }
   /*{
