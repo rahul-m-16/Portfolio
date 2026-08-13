@@ -8,18 +8,18 @@ export const certifications = [
     certificateHref: "/certificates/Data_Analytics.pdf",
     skills: ['ANALYTICAL REPORTING', 'DATA QUALITY MANAGEMENT', 'DATA INTERPRETATION', 'Express'],
     icon: '🎓'
-  }
-  /*{
-    id: 2,
-    title: 'JavaScript Algorithms and Data Structures',
-    issuer: 'freeCodeCamp',
-    date: 'Oct 2024',
-    credentialId: 'FCC-JS-2024',
-    credentialUrl: 'https://freecodecamp.org/certification/username/javascript',
-    skills: ['JavaScript', 'Algorithms', 'Data Structures'],
-    icon: '💻'
   },
   {
+    id: 2,
+    title: 'Data	Analytics	Job	Simulation',
+    issuer: 'Forage',
+    date: 'Aug 2026',
+    credentialId: '	ho2x46bqX2cz8zp6P',
+    certificateHref: "/certificates/Data Analytics Job Simulation.pdf",
+    skills: ['Tableau', 'Excel Data Manipulation', 'Dashboard Building'],
+    icon: '💻'
+  },
+  /*{
     id: 3,
     title: 'Responsive Web Design',
     issuer: 'freeCodeCamp',
