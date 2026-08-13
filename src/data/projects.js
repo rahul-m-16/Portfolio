@@ -22,7 +22,7 @@ export const projects = [
   techStack: ['HTML', 'CSS', 'JavaScript'],
   challenges: 'Designing a clean and intuitive interface while managing dynamic data interactions.',
   outcome: 'Improved efficiency in managing book records and enhanced user experience with a simple interface.',
-  liveLink: '',
+  liveLink: 'https://online-library-mng-sys.vercel.app/',
   githubLink: 'https://github.com/rahul-m-16/Online-Library-Mng-Sys',
   category: 'frontend',
   featured: false
